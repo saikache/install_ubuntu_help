@@ -9,9 +9,9 @@ gem 'sqlite3'
 # Use SCSS for stylesheets
 end
 
-# group :production do
+group :production do
 	gem 'pg'
-# end
+end
 gem 'sass-rails', '~> 4.0.3'
 # Use Uglifier as compressor for JavaScript assets
 gem 'uglifier', '>= 1.3.0'
